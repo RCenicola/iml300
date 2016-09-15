@@ -1,0 +1,113 @@
+/* 
+
+CUSTOMIZE the following section as you wish
+Feel free to add additional styling if you wish
+
+DO NOT CHANGE the class names
+
+*/
+
+body {
+    background: linear-gradient( white, blue);
+    font-family:cursive;
+    font-size: 20px
+}
+
+.section {
+    margin: 20px 50px;
+    text-shadow: 0 0 3px blue
+    
+    
+}
+
+.top {
+    font-size:50px;
+    text-align: center;
+    border-style: groove;
+    border-color:burlywood;
+    border-width: 10px;
+    text-shadow: 0 0 5px red
+    
+}
+
+
+
+.keywords {
+   text-align: center;
+    
+    
+}
+
+ul {
+
+    list-style-image: url(../images/us-flag-2.png);
+    list-style-position: inside;
+    margin: 10px 50px
+        
+}
+
+p {
+    margin: 20px 70px;
+    width: 1000px 2000px;
+  
+}
+
+li {
+    margin: 15px
+}
+
+/* --------------------------------------- */
+/*        DO NOT MODIFY BELOW HERE         */
+/* --------------------------------------- */
+
+footer {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    color: dimgrey;
+    vertical-align: top
+}
+
+footer a {
+    text-decoration: none;    
+    font-size: 1em;    
+}
+
+footer a span {
+    background-color: orange;            
+    font-size: 2em;
+    vertical-align: text-bottom
+}
+
+
+footer a:hover {
+    color: crimson;
+}
+
+nav {
+    font-family: serif
+}
+
+nav:first-child {
+    margin-left: 1em;
+    float: left;
+    display: inline; 
+    width: auto;
+}
+
+nav:last-child {
+    margin-right: 1em;
+    float: right;
+}
+
+#backButton:before {
+/*    content: "\25C0 ";*/
+    content: "\2190 ";
+    font-size: 3em;
+}
+
+#nextButton:after {
+/*    content: "\25B6 ";*/
+    content: "\2192 ";
+    font-size: 3em;
+}
