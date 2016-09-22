@@ -4,18 +4,21 @@ h1 {
     font-size: 50px;
     padding-bottom: 0px;
     position:relative;
-     margin-left:26%;padding:0px 0px;position:inherit
+     margin-left:26%;padding:0px 0px;position:inherit;
 }
 
 h2 {
     font-family: "Raleway", sans-serif;
+    font-size:25px;
    margin-left:25%;padding:5px 16px;position:fixed";
+        /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed around padding to get elements where I want them.)*/
 }
 
 h3 {
     font-family: "Raleway", sans-serif;
     pointer-events: none;
      margin-left:25%;padding:5px 16px;position:fixed";
+         /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed around padding to get elements where I want them.)*/
 }
 
 ul {
@@ -28,7 +31,7 @@ ul {
     position: fixed;
     height: 100%;
     overflow:auto;
-
+/* I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (I changed around the colors to fit my theme, but otherwise dimensions are the same.) */
 
 }
 
@@ -38,18 +41,20 @@ li a {
     color:whitesmoke;
     padding: 8px 16px;
     background-color: #22252C 
+         /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed the colors and the padding.)*/
     
 }
 
 li a.active {
     background-color: #E14658;
         color:floralwhite
+             /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed colors)*/
 }
 
 li a:hover:not(.active) {
     background-color:#3F3250;
     color:white
-    
+     /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed colors)*/
 }
 
 audio {
@@ -58,5 +63,7 @@ audio {
 }
 
 p {
+    font-family: "Raleway", sans-serif;
      margin-left:25%;padding:5px 16px;position:fixed";
+         
 }
