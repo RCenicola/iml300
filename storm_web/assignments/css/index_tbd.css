@@ -4,13 +4,15 @@ h1 {
     font-size: 50px;
     padding-bottom: 0px;
     position:relative;
-     margin-left:26%;padding:0px 0px;position:inherit;
+     margin-left:26%;
+    position:inherit;
+    /*Made the position relative so that it would stay to the right of the navigation bar. Adjusted the left margin so that it would not be covered by nav bar.  */
 }
 
 h2 {
     font-family: "Raleway", sans-serif;
     font-size:25px;
-   margin-left:25%;padding:5px 16px;position:fixed";
+   margin-left:25%;padding:5px 16px;position:inherit";
         /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed around padding to get elements where I want them.)*/
 }
 
@@ -38,16 +40,16 @@ ul {
 li a {
     display: block;
     width:2-0px;
-    color:whitesmoke;
+    color:white;
     padding: 8px 16px;
-    background-color: #22252C 
+    background-color:#CC0000
          /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed the colors and the padding.)*/
     
 }
 
 li a.active {
-    background-color: #E14658;
-        color:floralwhite
+    background-color:#FFCC00;
+        color:white
              /*I pulled this code from http://www.w3schools.com/css/css_navbar.asp. (Changed colors)*/
 }
 
