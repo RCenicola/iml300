@@ -2,42 +2,66 @@
 <html lang="en">
 
   <head>
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-   <style>
-    ul 
+<style>
     </style>
     <meta charset="UTF-8">
     <title>Homepage Navigation</title>  
     <link rel="stylesheet" href="css/w3.css">
-     <link rel="stylesheet" href="css/custom-w3">  
+     <link rel="stylesheet" href="css/custom-w3.css"> 
+     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
 </head>
 
 <body>    
-
+<!-- Header -->
+<header class="w3-display-container w3-content" style="max-width:1500px">
+  <img class="w3-image" src="assignments/images/home-header.JPG" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-xlarge  w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small name alltop">RYAN CENICOLA</h1>
+    <h5 class="w3-hide-large alltop" style="white-space:nowrap">RYAN CENICOLA</h5>
+    <h4 class="w3-hide-medium w3-hide-small">UNIVERSITY OF SOUTHERN CALIFORNIA</h4>
+  </div>
   
-   <ul style="list-style-type:block">
-   <li> <a class="active" href="http://storm.usc.edu/~cenicola/" style="text-decoration:none">Home</a></li>
-   <!--Wanted to make an "active" tab that highlights the current page the user is on. As directed by http://www.w3schools.com/css/css_navbar.asp. -->
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <ul class="w3-navbar w3-red w3-round w3-display-bottommiddle w3-hide-small navbar" style="bottom:-16px">
+    <li><a href="http://storm.usc.edu/~cenicola/iml300/about.html">About Me</a></li>
+    <li><a href="http://storm.usc.edu/~cenicola/iml300/assignments/index.html">Assignments</a></li>
+     <li><a href="http://storm.usc.edu/~cenicola/iml300/links.html">Top Links</a></li>
+  </ul>
    
-    <li> <a href="about.html" style="text-decoration:none"> About </a> </li>
-    <li><a href="links.html" style="text-decoration:none">Links</a></li>
-    <li><a href="assignments/index.html" style="text-decoration:none">Assignments</a></li>
+
+</header>
+
+<!-- Navbar on small screens -->
+<ul class="w3-navbar w3-red w3-hide-large w3-hide-medium">
+  <li><a href="#">About</a></li>
+    <li class="w3-dropdown-hover">
+      <a href="#">Assignments <i class="fa fa-caret-down"></i></a>
+      <div class="w3-dropdown-content w3-white w3-card-4">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
 </ul>
-<h1>Ryan Cenicola's Homepage</h1>
 
+<!-- Welcome Phrase -->
+<h3 class="w3-container w3-center intro">Here's what I've been up to.</h3>
 
-<h2 class=w3-display-container>Let's Go On a Journey</h2>
-<p>"A day without sunshine is like night" - Unknown</p>
+<!-- Page content -->
+<div class="w3-content w3-row-padding w3-margin-top" id="portfolio">
+  
+
+  <!-- Images (Portfolio)
+  <img src="img_ocean.jpg" alt="Ocean" class="w3-image" width="1000" height="500">
+  <img src="img_ocean2.jpg" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="img_falls2.jpg" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="img_mountainskies.jpg" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="img_mountains2.jpg" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
+-->
+  
     </div>
-    <p>Tunes provided by: bensound.com</p>
-    <p>My color #CC0000, or Rosso corsa, has been my favorite color for as long as I can remember. I was really into racecars when I was young, and Rosso corsa is the red used on many racecars, especially in Italy. My car is now red, inspired by the vehicles I followed in my youth. </p>
-    <audio controls autoplay>
-        <source src="iml300/assignments/audio/bensound-sexy.mp3" type="audio/mp3">
-        
-        <!--Source: bensound.com. I pulled the preceeding code from:http://www.w3schools.com/tags/att_audio_autoplay.asp. -->
-        
-    </audio>
     
-</body>
-
+    </body>
+    
 </html>
+

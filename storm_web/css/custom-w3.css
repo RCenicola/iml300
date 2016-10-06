@@ -11,8 +11,8 @@
 .intro {
     padding-top: 60px;
     font-family: Raleway;
-    font-size: 35pt
-    
+    font-size: 35pt;
+    padding-bottom: 50px
 }
 
 
@@ -33,6 +33,23 @@
 }
 
 .alltop {
-    margin-top:-80px;
-    padding-top:70px
+    margin-top:-140px;
+    padding-top:120px
+}
+
+
+}
+
+.listpad {
+    margin-bottom: 20px
+}
+
+.abouttop {
+    margin-top:-400px
+}
+
+.aboutme {
+    font-family:Raleway;
+
+        
 }
