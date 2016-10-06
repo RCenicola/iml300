@@ -33,7 +33,7 @@
 }
 
 .alltop {
-    margin-top:-140px;
+    margin-top:-215px;
     padding-top:120px
 }
 
@@ -50,6 +50,8 @@
 
 .aboutme {
     font-family:Raleway;
+    padding: 50px;
+    margin-left: 50px
 
         
 }
@@ -60,4 +62,16 @@
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.goals {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.iconclick {
+    font-family: raleway;
+    font-size: 20px;
+    padding-bottom: 10px
 }
